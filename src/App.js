@@ -44,6 +44,7 @@ class App extends Component {
       })
   }
   
+  
     
     render() {
         const temp=this.state.temperature;
@@ -56,7 +57,8 @@ class App extends Component {
             <Temperature scale='f' temperature={farhn} onTempChange={this.handleFarhn}/>
             <hr></hr>
             <Boil celsius={celsius}/>
-        
+            
+            
     </div> 
     );
   }
